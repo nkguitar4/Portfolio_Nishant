@@ -1,0 +1,7 @@
+com\make\portfolio\controllers\ContractController.class
+com\make\portfolio\controllers\SkillsController.class
+com\make\portfolio\controllers\EducationController.class
+com\make\portfolio\controllers\ProjectsController.class
+com\make\portfolio\PortfolioApplication.class
+com\make\portfolio\controllers\HowController.class
+com\make\portfolio\controllers\HomeController.class

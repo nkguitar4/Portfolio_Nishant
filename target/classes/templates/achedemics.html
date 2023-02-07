@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="style.css">
+<head th:replace="/fragments/head"></head>
+<body class="bdy">
+<head th:replace="/fragments/nav :: nav-front"></head>
+<div class="container-fluid mt-5 bg">
+
+
+		<section class="portfolio">
+			<div class="container">
+				<h2 class="title">Colleges & Universities</h2>
+
+				<div class="portfolio-content">
+					<div class="card">
+						<div class="box">
+							<h3>Chandigarh University</h3>
+							<h4>Mohali, Punjab</h4>
+							<div class="moreabout">2020-2022(Highest Degree)<br>Master's of Computer Applications(MCA)</div>
+							<img src="/media/CU.jpg" alt="Chandigarh University">
+						</div>
+					</div>
+					<div class="card">
+						<div class="box">
+							<h3>Asansol Engineering College</h3>
+							<h4>Asansol, West Bengal</h4>
+							<div class="moreabout">2017-2020<br>Bachelor's of Computer Applications(BCA)</div>
+							<img src="/media/aec.jpg" alt="Asansol Engineering College">
+						</div>
+					</div>
+				<!-- </div> -->
+				<br>
+				<!-- <div class="portfolio-content"> -->
+					<h2 class="title">Schools</h2>
+					
+					<div class="card">
+						<div class="box">
+							<h3>BRL DAV Public School</h3>
+							<h4>Higer Secondary</h4>
+							<div class="moreabout">2015-2017</div>
+							<img src="/media/brl.jpg" alt="Asansol Engineering College">
+						</div>
+					</div>
+					<div class="card">
+						<div class="box">
+							<h3>De Nobili School</h3>
+							<h4>Secondary</h4>
+							<div class="moreabout">Till 2015</div>
+							<img src="/media/dns.jpg" width="100px" alt="Asansol Engineering College">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+</div>
+<head th:replace="/fragments/footer"></head>
+</body>
+</html>

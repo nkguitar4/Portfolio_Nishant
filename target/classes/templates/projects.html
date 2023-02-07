@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<link rel="stylesheet" href="style.css">
+<head th:replace="/fragments/head"></head>
+<body class="bdy">
+<head th:replace="/fragments/nav :: nav-front"></head>
+<div class="container-fluid mt-5 bg">
+	
+
+
+		<section class="portfolio">
+			<div class="container">
+				<h2 class="title">Projects</h2>
+
+				<div class="portfolio-content">
+					<div class="card">
+						<div class="box">
+							<h3>ShoppingCart</h3>
+							<h4>This is a real world based Shopping Cart application
+								where you can register as a user and continue your shopping.
+								Here you can have admin controls to add and remove products and
+								edit their details. This is made using Spring and MySQL.</h4>
+							<h5>
+								Click on <a href="https://github.com/nkguitar4/ShoppingCart"
+									target="_blank">Shopping Cart</a> to visit.
+							</h5>
+						</div>
+					</div>
+					<div class="card">
+						<div class="box">
+							<h3>web-customer-tracker</h3>
+							<h4>To perform CRUD operations on data present in database.
+								This is made using Spring and MySQL</h4>
+							<h5>
+								Click on <a
+									href="https://github.com/nkguitar4/web-customer-tracker"
+									target="_blank">web-customer-tracker </a> to visit.
+							</h5>
+						</div>
+					</div>
+					<div class="card">
+						<div class="box">
+							<h3>Data-to-Excel</h3>
+							<h4>This Application is made using Spring, Hibernate and
+								MySQL. This Application insted of using a database, it stores
+								data in a Excel file and is also added with some validations.</h4>
+							<h5>
+								Click on <a
+									href="https://github.com/nkguitar4/Data-to-Excel"
+									target="_blank">Data-to-Excel </a> to visit.
+							</h5>
+						</div>
+					</div>
+										
+				</div>
+			</div>
+		</section>
+
+
+	
+</div>
+<head th:replace="/fragments/footer"></head>
+</body>
+</html>
